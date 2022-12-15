@@ -24,3 +24,4 @@ Dating App -
 20. To remove unwanted file from our project to upload in github, we can use dotnet new gitignore
 21. also add dotnet new globaljson 
 22. Then stage the changes with + sign
+23. Create a new repository in github
