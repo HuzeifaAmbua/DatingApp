@@ -1,0 +1,25 @@
+Github access token - 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
+
+Dating App -
+
+1. create a new folder -> mkdir DatingApp
+2. for getting dotnet info -> dotnet --info 
+3. for getting help related to dotnet - dotnet -h
+4. for getting help related to command - dotnet commandname -h. example -> dotnet new --list
+5. for creating new sln - dotnet new sln
+6. for creating new api project - dotnet new webapi -n API
+7. for adding project in sln - dotnet sln add API
+8. to list the project under a sln - dotnet sln list
+9. open visual studio code from cmd - code .
+10. install c# compiler 'C#' extension
+11. Go to c# extension settings, in settings enable async completion and enable import completion
+12. For .vscode folder go to command pellete and search .net generate assets and debug
+13. In omnisharp is not working properly, set Omnisharp: Path = latest
+14. For changing the launch profile - dotnet run -lp https
+15. To exclude certain files and folder, go to settings in visual studio code. search 'exclude' and add pattern of it
+16. To add a migration dotnet ef migrations add InitialCreate -o Data/Migrations
+17. To update dotnet ef to new version, dotnet tool update --global dotnet-ef --version 6.0.10
+18. Git - for checking whether a project is already on git we can use git status command
+19. To upload a project on git begin with git init
+20. To remove unwanted file from our project to upload in github, we can use dotnet new gitignore
+21. also add dotnet new globaljson 
