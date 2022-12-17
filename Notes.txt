@@ -25,3 +25,16 @@ Dating App -
 21. also add dotnet new globaljson 
 22. Then stage the changes with + sign
 23. Create a new repository in github
+24. Check git status if it says branch master change it to main by this command  git branch -M main
+25. Add the command copied from the github to publish the repo to the git hub, for ex - git remote add origin https://github.com/HuzeifaAmbua/DatingApp.git
+26. Finally publish branch from visual studio code git extension
+27. To install angular cli, npm install -g @angular/cli@14
+28. To create a new angular project, ng new client
+29. If cors does not work, add cors in program.cs
+30. In angular, add ngx-bootstrap https://valor-software.com/ if cli way does not work use manual way
+31. Then install bootstrap npm install bootstrap@5
+32. Then install font-awesome, npm install font-awesome
+32. Go to angular.json file, and in styles array add bootstrap and font awesome css
+33. To run angular app on ssl, we need to install certificate which is provide in student resources.
+34. Follow the instructions and then create a folder ssl in client folder, and paste server.srt and server.key.
+35. Put the server file and server key in angular.json in "serve" config
