@@ -38,3 +38,4 @@ Dating App -
 33. To run angular app on ssl, we need to install certificate which is provide in student resources.
 34. Follow the instructions and then create a folder ssl in client folder, and paste server.srt and server.key.
 35. Put the server file and server key in angular.json in "serve" config
+36. To disable hot reload, dotnet watch --no-hot-reload
