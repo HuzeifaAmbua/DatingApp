@@ -2,6 +2,8 @@ Github access token - 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
 
 Dating App -
 
+Dotnet -
+
 1. create a new folder -> mkdir DatingApp
 2. for getting dotnet info -> dotnet --info 
 3. for getting help related to dotnet - dotnet -h
@@ -19,23 +21,40 @@ Dating App -
 15. To exclude certain files and folder, go to settings in visual studio code. search 'exclude' and add pattern of it
 16. To add a migration dotnet ef migrations add InitialCreate -o Data/Migrations
 17. To update dotnet ef to new version, dotnet tool update --global dotnet-ef --version 6.0.10
-18. Git - for checking whether a project is already on git we can use git status command
-19. To upload a project on git begin with git init
-20. To remove unwanted file from our project to upload in github, we can use dotnet new gitignore
-21. also add dotnet new globaljson 
-22. Then stage the changes with + sign
-23. Create a new repository in github
-24. Check git status if it says branch master change it to main by this command  git branch -M main
-25. Add the command copied from the github to publish the repo to the git hub, for ex - git remote add origin https://github.com/HuzeifaAmbua/DatingApp.git
-26. Finally publish branch from visual studio code git extension
-27. To install angular cli, npm install -g @angular/cli@14
-28. To create a new angular project, ng new client
-29. If cors does not work, add cors in program.cs
-30. In angular, add ngx-bootstrap https://valor-software.com/ if cli way does not work use manual way
-31. Then install bootstrap npm install bootstrap@5
-32. Then install font-awesome, npm install font-awesome
-32. Go to angular.json file, and in styles array add bootstrap and font awesome css
-33. To run angular app on ssl, we need to install certificate which is provide in student resources.
-34. Follow the instructions and then create a folder ssl in client folder, and paste server.srt and server.key.
-35. Put the server file and server key in angular.json in "serve" config
-36. To disable hot reload, dotnet watch --no-hot-reload
+18. If cors does not work, add cors in program.cs
+19. To disable hot reload, dotnet watch --no-hot-reload
+
+Angular - 
+
+1. To install angular cli, npm install -g @angular/cli@14
+2. To create a new angular project, ng new client
+3. In angular, add ngx-bootstrap https://valor-software.com/ if cli way does not work use manual way
+4. Then install bootstrap npm install bootstrap@5
+5. Then install font-awesome, npm install font-awesome
+6. Go to angular.json file, and in styles array add bootstrap and font awesome css
+7. To run angular app on ssl, we need to install certificate which is provide in student resources.
+8. Follow the instructions and then create a folder ssl in client folder, and paste server.srt and server.key.
+9. Put the server file and server key in angular.json in "serve" config
+10. For angular there is option to check what will the command do, ng g c nav --dry-run
+11. For creating a new component in angular, ng g c nav --skip-tests
+12. For using forms in angular import forms in appmodule,  FormsModule
+13. For creating a new service in angular,  ng g s _services/account --skip-tests
+14. Previously in angular 12 or previous we need to provide the services in appmodule but now it is automatically injected by Injectable providedIn: 'root'
+
+Git - 
+
+1. Git - for checking whether a project is already on git we can use git status command
+2. To upload a project on git begin with git init
+3. To remove unwanted file from our project to upload in github, we can use dotnet new gitignore
+4. also add dotnet new globaljson 
+5. Then stage the changes with + sign
+6. Create a new repository in github
+7. Check git status if it says branch master change it to main by this command  git branch -M main
+8. Add the command copied from the github to publish the repo to the git hub, for ex - git remote add origin https://github.com/HuzeifaAmbua/DatingApp.git
+9. Finally publish branch from visual studio code git extension
+
+
+
+
+
+
