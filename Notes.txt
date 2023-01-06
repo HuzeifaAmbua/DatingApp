@@ -40,6 +40,17 @@ Angular -
 12. For using forms in angular import forms in appmodule,  FormsModule
 13. For creating a new service in angular,  ng g s _services/account --skip-tests
 14. Previously in angular 12 or previous we need to provide the services in appmodule but now it is automatically injected by Injectable providedIn: 'root'
+15. To specify routing, go to app-routing module and in const routes: Routes = [] specify routes.
+16. There is a wild card route also if no route matches { path: '**', component: HomeComponent, pathMatch: 'full' }
+17. And to make routing work add  <router-outlet></router-outlet> in app component
+18. To navigate through component use: this.router.navigateByUrl('/');
+19. To install toastr go to https://github.com/scttcper/ngx-toastr
+20. To add toastr package, npm install --save ngx-toastr@15.2.0
+21. Add toastr css in angular.json styles array, "node_modules/ngx-toastr/toastr.css" 
+22. To add auth guard,  ng g g _guards/auth --skip-tests
+23. To add bootswatch,  npm install bootswatch
+24. To add modules, ng g m _modules/shared --flat
+25. --flat means no extra folder will be created
 
 Git - 
 
