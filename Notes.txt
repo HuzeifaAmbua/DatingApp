@@ -52,6 +52,7 @@ Angular -
 24. To add modules, ng g m _modules/shared --flat
 25. --flat means no extra folder will be created
 26. To install ngx gallery,  npm install @kolkov/ngx-gallery --legacy-peer-deps
+27. To install ngx spinner, npm install ngx-spinner@14.0.0 --legacy-peer-deps
 
 Git - 
 
